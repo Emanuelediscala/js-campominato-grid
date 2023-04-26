@@ -5,7 +5,7 @@ const PushdButton = document.getElementById("play");
 
 PushdButton.addEventListener("click", function() {
         griglia.innerHTML = "";
-        for (let i = 1; i <= 64; i++) {
+        for (let i = 1; i <= 100; i++) {
         let Nuovoblocco = document.createElement("div");
         Nuovoblocco.classList.add("square");
         griglia.appendChild(Nuovoblocco);
