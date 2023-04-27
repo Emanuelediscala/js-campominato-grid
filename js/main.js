@@ -7,7 +7,8 @@ const PushdButton = document.getElementById("play");
 
 // DICHIARAZIONE FUNZIONE TASTO BUTTON
 PushdButton.addEventListener("click", function() {
-        griglia.innerHTML = "";
+    griglia.innerHTML = ""
+    griglia.classList.remove("d-none")
 // DIFFICULT SELECTION
 const Difficult = document.getElementById("Options").value;
 console.log(Difficult);
